@@ -86,7 +86,6 @@ function createTierList(tierListName) {
   const tierSection = document.getElementById("tier-list-section");
   tierSection.appendChild(newTierList);
   deleteBtn.addEventListener("click", (event) => {
-    //  const parentNode = event.target.parentNode;
     const nonTierSection = document.getElementById("non-tier-section");
 
     while (newTierListItems.firstChild) {

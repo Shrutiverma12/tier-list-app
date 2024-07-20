@@ -4,6 +4,9 @@ body {
   background-color: #242222;
 }
 
+.tier-app-heading {
+  text-align: center;
+}
 h1,
 label {
   color: white;
@@ -11,6 +14,9 @@ label {
 #tier,
 #image-item {
   padding: 5px;
+}
+label {
+  margin-left: 10px;
 }
 
 .submitBtn {
